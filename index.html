@@ -177,8 +177,22 @@ want text to appear in the rightmost third of the screen. */
       </center>
     
     
-    
-    
+    <!-- trying to implement hover opacity effect -->
+    <head>
+    <style>
+    img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+</style>
+</head>
+<body>
+
     <div class="w3-xlarge w3-padding-32">
     
     
@@ -201,7 +215,7 @@ want text to appear in the rightmost third of the screen. */
       
     </div>
     
- 
+    </body>
 
    
 
