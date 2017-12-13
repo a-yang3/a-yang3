@@ -25,7 +25,46 @@
 <link rel="icon" href="https://image.ibb.co/mCB4Ub/A_Logo_Shadow.png"> 
 
 
+<style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 0px dotted black;
+}
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 0.8;
+}
+</style>
 
 
 <!-- left margins -->
@@ -199,29 +238,52 @@ body {margin:0;}
    <header class="w3-container w3-third" style="padding:40px 0px">
   <font color="#F29B88" size = "10">
     <center>
-      <br>
+      
   Hello! 
   </font></center>
   <font color="#363636" size="4" >
-I'm currently a sophomore at UC Berkeley majoring in Cognitive Science, and exploring minors in Music, Data Science, and Design Innovation. 
+I'm a sophomore at UC Berkeley majoring in <a class="three" a href="http://www.whatispsychology.biz/wp-content/uploads/2013/09/Psychology-Memes1.jpg" style="text-decoration: none; ">Cognitive Science</a>, and exploring minors in Music, Data Science, and Design Innovation. 
+<br>
+As a premed student turned product designer, I'm fascinated by the intersection of healthcare, art and technology. Currently, I'm a UI/UX design intern at <a class="three" a href="http://www.geekbears.com/" style="text-decoration: none;">Geekbears</a> and have experience with the human-centered design pipeline through consulting at <a class="three" a href="https://berkeleyinnovation.org/" style="text-decoration: none; ">Berkeley Innovation</a>. I also learned to design, organize and conduct formal experiments through researching in a <a class="three" a href="http://mcb.berkeley.edu/labs/isacoff/" style="text-decoration: none; ;">Neurobiology</a> lab on campus. 
+
+
+<br>
+Feel free to <a class="three" a href="mailto:as.yang@berkeley.edu" style="text-decoration: none;""><font color="#F29B88 ">reach out</font></a> or view my <a class="three" a href="https://drive.google.com/a/berkeley.edu/file/d/139RKR_Fr-cck8wU9ZVouorB8bvhSVYup/view?usp=sharing" style="text-decoration: none; "><font color="#F29B88 ">resume!</a>
 <br>
 
-I'm currently a UI/UX design intern at <a class="three" a href="http://www.geekbears.com/" style="text-decoration: none;">Geekbears</a>, but looking for summer 2018 internship opportunities. 
-<br>
-Feel free to <a class="three" a href="mailto:as.yang@berkeley.edu" style="text-decoration: none;""><font color="#F29B88 ">reach out</font></a> or view my <a class="three" a href="https://drive.google.com/a/berkeley.edu/file/d/139RKR_Fr-cck8wU9ZVouorB8bvhSVYup/view?usp=sharing" style="text-decoration: none; "><font color="#F29B88 ">resume!</a></font>
+<div class="tooltip"><a href ="https://www.instagram.com/sendoodz/"> <i class="fa fa-instagram w3-hover-opacity"></i></a> 
+  <span class="tooltiptext">Click me for doodles!</span>
+</div>
+</font>
+
+
+
+
 
 <br>
 
 </blockquote>
 </h3>
 </div>
-
-<header class="w3-container" style="padding:40px 250px">
-<font size = "3" font color = "F29B88"> Coursework at Berkeley:   
-</font>
 <br>
+<br>
+<header class="w3-container" style="padding:40px 250px">
+  <font size = "4" font color = "F29B88"> Currently...  
+</font>
 <font color="#8e8e8e" size="3" >
-General Chemistry and Lab | The Structure and Interpretation of Computer Systems | Social Psychology | Introduction to Cognitive Science | Brain, Mind, Behavior | Foundations of Data Science | Calculus, Statistics, Combinatorics | Introduction to General Astronomy | Principles of Sociology: American Cultures | Music and Laughter | Discrete Mathematics and Probability Theory | User Experience Design | Introduction to Linguistic Science 
+Attempting to boulder V2s, listening to Serial Killers on Spotify, playing Rachmaninoff Symphony no. 3 with UCBSO</font>
+<br>
+<br>
+<font size = "4" font color = "F29B88"> Coursework at Berkeley:   
+</font>
+
+<font color="#8e8e8e" size="3" >
+General Chemistry and Lab | The Structure and Interpretation of Computer Systems | Social Psychology | Introduction to Cognitive Science | Brain, Mind, Behavior | Foundations of Data Science | Calculus, Statistics, Combinatorics | Introduction to General Astronomy | Principles of Sociology: American Cultures | Music and Laughter | Discrete Mathematics and Probability Theory | User Experience Design | Introduction to Linguistic Science </font>
+<br>
+<br>
+
+
+
 
 <!-- End Document––– -->
 </body>
